@@ -6,7 +6,7 @@ border-box;
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  background:  #56d8e4;
   font-size: 14px;
 }
 
@@ -144,4 +144,23 @@ tr td i{
 }
 .input-data a:hover{
   color: #000;
+}
+
+@media screen and (max-width: 520px) {
+  .input-data {
+    width: 100%;
+  }
+  .data-text {
+    width: 100%;
+  }
+  .contact-left{
+    width: 100%;
+  }
+  .contact-right{
+    width: 100%;
+  }
+  .input-row .input-group{
+    width: 80%;
+    text-align: left;
+  }
 }
