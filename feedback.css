@@ -6,7 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  background:  #56d8e4;
   font-size: 14px;
 }
 .container{ 
@@ -72,4 +72,17 @@ button{
   height: 35px;
   border-radius: 30px;
   box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);  
+}
+
+@media screen and (max-width: 520px) {
+  
+  .contact-left{
+    width: 100%;
+  }
+  .input-row .input-group{
+    width: 80%;
+    text-align: left;
+  }
+  input, textarea, label{
+  width: 100%;
 }
